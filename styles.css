@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: bottom;
+}
+
+h1 {
+    margin: 5px auto 20px auto;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:rgba(135, 206, 250, 0.5)
+}
+
+.container {
+    margin-top: 30px;
+}
+
+#canvas1 {
+    width: 800px;
+    height: 800px;
+    background-color: rgb(34, 8, 59);
+    border: 2px solid rgba(135, 206, 250, 0.5);
+    color: lightskyblue;
+    border-radius: 8px;;
+}
